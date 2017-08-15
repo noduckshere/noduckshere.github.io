@@ -1,1 +1,52 @@
 /* header.css*/
+
+ul {
+	list-style-type:none;
+	margin-right: 2%;
+    padding-top: 20px;
+	padding-bottom:20px;
+	background-color: rgba(122, 168, 193, .5);
+}
+
+li {
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+li:hover {
+	background-color: #03662c;
+	padding: 20px;
+}
+
+li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+	z-index: 4;
+}
+
+.topright {
+    position: fixed;
+	margin-top: 1%;
+	text-align: right;
+    right: 1%;
+	width: 90%;
+	z-index: 3;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+	font-weight: bold;
+}
